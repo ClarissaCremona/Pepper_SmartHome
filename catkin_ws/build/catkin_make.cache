@@ -1,0 +1,2 @@
+beginner_tutorials:my_pkg:naoqi_driver
+-DCATKIN_DEVEL_PREFIX=/home/clarissa/catkin_ws/devel -DCMAKE_INSTALL_PREFIX=/home/clarissa/catkin_ws/install -G Unix Makefiles

@@ -1,0 +1,8 @@
+prefix=/home/clarissa/catkin_ws/devel
+
+Name: naoqi_driver
+Description: Description of naoqi_driver
+Version: 0.5.9
+Cflags: 
+Libs: -L/home/clarissa/catkin_ws/devel/lib -lnaoqi_driver_module -lnaoqi_driver
+Requires: 

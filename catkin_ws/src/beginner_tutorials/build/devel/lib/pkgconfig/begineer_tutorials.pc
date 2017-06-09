@@ -1,0 +1,8 @@
+prefix=/home/clarissa/catkin_ws/src/begineer_tutorials/build/devel
+
+Name: begineer_tutorials
+Description: Description of begineer_tutorials
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/clarissa/catkin_ws/src/begineer_tutorials/build/devel/lib 
+Requires: 

@@ -1,0 +1,5 @@
+#! /usr/bin/env python
+
+import tutorial_package.hello
+
+tutorial_package.hello.rest()
