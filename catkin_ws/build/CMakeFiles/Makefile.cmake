@@ -15,10 +15,13 @@ SET(CMAKE_MAKEFILE_DEPENDS
   "catkin/catkin_generated/version/package.cmake"
   "catkin_generated/installspace/_setup_util.py"
   "catkin_generated/order_packages.cmake"
+<<<<<<< HEAD
   "demo_pkg/catkin_generated/ordered_paths.cmake"
   "demo_pkg/catkin_generated/package.cmake"
   "iot_bridge/iot_bridge/catkin_generated/ordered_paths.cmake"
   "iot_bridge/iot_bridge/catkin_generated/package.cmake"
+=======
+>>>>>>> 616d0b8b1080c9f27984c48b752125724b97d59b
   "my_pkg/catkin_generated/package.cmake"
   "my_pkg/catkin_generated/setup_py_interrogation.cmake"
   "naoqi_driver/catkin_generated/ordered_paths.cmake"
@@ -26,10 +29,13 @@ SET(CMAKE_MAKEFILE_DEPENDS
   "/home/clarissa/catkin_ws/src/CMakeLists.txt"
   "/home/clarissa/catkin_ws/src/beginner_tutorials/CMakeLists.txt"
   "/home/clarissa/catkin_ws/src/beginner_tutorials/package.xml"
+<<<<<<< HEAD
   "/home/clarissa/catkin_ws/src/demo_pkg/CMakeLists.txt"
   "/home/clarissa/catkin_ws/src/demo_pkg/package.xml"
   "/home/clarissa/catkin_ws/src/iot_bridge/iot_bridge/CMakeLists.txt"
   "/home/clarissa/catkin_ws/src/iot_bridge/iot_bridge/package.xml"
+=======
+>>>>>>> 616d0b8b1080c9f27984c48b752125724b97d59b
   "/home/clarissa/catkin_ws/src/my_pkg/CMakeLists.txt"
   "/home/clarissa/catkin_ws/src/my_pkg/package.xml"
   "/home/clarissa/catkin_ws/src/my_pkg/setup.py"
@@ -265,8 +271,11 @@ SET(CMAKE_MAKEFILE_PRODUCTS
   "CMakeFiles/CMakeDirectoryInformation.cmake"
   "gtest/CMakeFiles/CMakeDirectoryInformation.cmake"
   "beginner_tutorials/CMakeFiles/CMakeDirectoryInformation.cmake"
+<<<<<<< HEAD
   "demo_pkg/CMakeFiles/CMakeDirectoryInformation.cmake"
   "iot_bridge/iot_bridge/CMakeFiles/CMakeDirectoryInformation.cmake"
+=======
+>>>>>>> 616d0b8b1080c9f27984c48b752125724b97d59b
   "my_pkg/CMakeFiles/CMakeDirectoryInformation.cmake"
   "naoqi_driver/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
@@ -289,9 +298,12 @@ SET(CMAKE_DEPEND_INFO_FILES
   "beginner_tutorials/CMakeFiles/std_msgs_generate_messages_cpp.dir/DependInfo.cmake"
   "beginner_tutorials/CMakeFiles/std_msgs_generate_messages_lisp.dir/DependInfo.cmake"
   "beginner_tutorials/CMakeFiles/std_msgs_generate_messages_py.dir/DependInfo.cmake"
+<<<<<<< HEAD
   "demo_pkg/CMakeFiles/diagnostic_msgs_generate_messages_cpp.dir/DependInfo.cmake"
   "demo_pkg/CMakeFiles/diagnostic_msgs_generate_messages_lisp.dir/DependInfo.cmake"
   "demo_pkg/CMakeFiles/diagnostic_msgs_generate_messages_py.dir/DependInfo.cmake"
+=======
+>>>>>>> 616d0b8b1080c9f27984c48b752125724b97d59b
   "my_pkg/CMakeFiles/_catkin_empty_exported_target.dir/DependInfo.cmake"
   "naoqi_driver/CMakeFiles/actionlib_generate_messages_cpp.dir/DependInfo.cmake"
   "naoqi_driver/CMakeFiles/actionlib_generate_messages_lisp.dir/DependInfo.cmake"
@@ -299,6 +311,12 @@ SET(CMAKE_DEPEND_INFO_FILES
   "naoqi_driver/CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/DependInfo.cmake"
   "naoqi_driver/CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/DependInfo.cmake"
   "naoqi_driver/CMakeFiles/actionlib_msgs_generate_messages_py.dir/DependInfo.cmake"
+<<<<<<< HEAD
+=======
+  "naoqi_driver/CMakeFiles/diagnostic_msgs_generate_messages_cpp.dir/DependInfo.cmake"
+  "naoqi_driver/CMakeFiles/diagnostic_msgs_generate_messages_lisp.dir/DependInfo.cmake"
+  "naoqi_driver/CMakeFiles/diagnostic_msgs_generate_messages_py.dir/DependInfo.cmake"
+>>>>>>> 616d0b8b1080c9f27984c48b752125724b97d59b
   "naoqi_driver/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/DependInfo.cmake"
   "naoqi_driver/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/DependInfo.cmake"
   "naoqi_driver/CMakeFiles/geometry_msgs_generate_messages_py.dir/DependInfo.cmake"

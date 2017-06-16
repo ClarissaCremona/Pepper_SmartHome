@@ -298,12 +298,15 @@ cpp_common_DIR:PATH=/opt/ros/indigo/share/cpp_common/cmake
 //The directory containing a CMake configuration file for cv_bridge.
 cv_bridge_DIR:PATH=/opt/ros/indigo/share/cv_bridge/cmake
 
+<<<<<<< HEAD
 //Value Computed by CMake
 demo_pkg_BINARY_DIR:STATIC=/home/clarissa/catkin_ws/build/demo_pkg
 
 //Value Computed by CMake
 demo_pkg_SOURCE_DIR:STATIC=/home/clarissa/catkin_ws/src/demo_pkg
 
+=======
+>>>>>>> 616d0b8b1080c9f27984c48b752125724b97d59b
 //The directory containing a CMake configuration file for diagnostic_msgs.
 diagnostic_msgs_DIR:PATH=/opt/ros/indigo/share/diagnostic_msgs/cmake
 
@@ -353,12 +356,15 @@ gtest_main_LIB_DEPENDS:STATIC=general;-lpthread;general;gtest;
 //The directory containing a CMake configuration file for image_transport.
 image_transport_DIR:PATH=/opt/ros/indigo/share/image_transport/cmake
 
+<<<<<<< HEAD
 //Value Computed by CMake
 iot_bridge_BINARY_DIR:STATIC=/home/clarissa/catkin_ws/build/iot_bridge/iot_bridge
 
 //Value Computed by CMake
 iot_bridge_SOURCE_DIR:STATIC=/home/clarissa/catkin_ws/src/iot_bridge/iot_bridge
 
+=======
+>>>>>>> 616d0b8b1080c9f27984c48b752125724b97d59b
 //The directory containing a CMake configuration file for kdl_parser.
 kdl_parser_DIR:PATH=/opt/ros/indigo/share/kdl_parser/cmake
 
@@ -593,7 +599,11 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
+<<<<<<< HEAD
 CMAKE_NUMBER_OF_LOCAL_GENERATORS:INTERNAL=7
+=======
+CMAKE_NUMBER_OF_LOCAL_GENERATORS:INTERNAL=5
+>>>>>>> 616d0b8b1080c9f27984c48b752125724b97d59b
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP

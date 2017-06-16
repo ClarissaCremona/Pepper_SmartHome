@@ -588,6 +588,7 @@ clean: beginner_tutorials/CMakeFiles/std_msgs_generate_messages_py.dir/clean
 .PHONY : clean
 
 #=============================================================================
+<<<<<<< HEAD
 # Directory level rules for directory demo_pkg
 
 # Convenience name for "all" pass in the directory.
@@ -713,6 +714,8 @@ iot_bridge/iot_bridge/preinstall:
 .PHONY : iot_bridge/iot_bridge/preinstall
 
 #=============================================================================
+=======
+>>>>>>> 616d0b8b1080c9f27984c48b752125724b97d59b
 # Directory level rules for directory my_pkg
 
 # Convenience name for "all" pass in the directory.
@@ -774,6 +777,12 @@ naoqi_driver/clean: naoqi_driver/CMakeFiles/actionlib_generate_messages_py.dir/c
 naoqi_driver/clean: naoqi_driver/CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/clean
 naoqi_driver/clean: naoqi_driver/CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/clean
 naoqi_driver/clean: naoqi_driver/CMakeFiles/actionlib_msgs_generate_messages_py.dir/clean
+<<<<<<< HEAD
+=======
+naoqi_driver/clean: naoqi_driver/CMakeFiles/diagnostic_msgs_generate_messages_cpp.dir/clean
+naoqi_driver/clean: naoqi_driver/CMakeFiles/diagnostic_msgs_generate_messages_lisp.dir/clean
+naoqi_driver/clean: naoqi_driver/CMakeFiles/diagnostic_msgs_generate_messages_py.dir/clean
+>>>>>>> 616d0b8b1080c9f27984c48b752125724b97d59b
 naoqi_driver/clean: naoqi_driver/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/clean
 naoqi_driver/clean: naoqi_driver/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/clean
 naoqi_driver/clean: naoqi_driver/CMakeFiles/geometry_msgs_generate_messages_py.dir/clean
@@ -988,6 +997,102 @@ clean: naoqi_driver/CMakeFiles/actionlib_msgs_generate_messages_py.dir/clean
 .PHONY : clean
 
 #=============================================================================
+<<<<<<< HEAD
+=======
+# Target rules for target naoqi_driver/CMakeFiles/diagnostic_msgs_generate_messages_cpp.dir
+
+# All Build rule for target.
+naoqi_driver/CMakeFiles/diagnostic_msgs_generate_messages_cpp.dir/all:
+	$(MAKE) -f naoqi_driver/CMakeFiles/diagnostic_msgs_generate_messages_cpp.dir/build.make naoqi_driver/CMakeFiles/diagnostic_msgs_generate_messages_cpp.dir/depend
+	$(MAKE) -f naoqi_driver/CMakeFiles/diagnostic_msgs_generate_messages_cpp.dir/build.make naoqi_driver/CMakeFiles/diagnostic_msgs_generate_messages_cpp.dir/build
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/clarissa/catkin_ws/build/CMakeFiles 
+	@echo "Built target diagnostic_msgs_generate_messages_cpp"
+.PHONY : naoqi_driver/CMakeFiles/diagnostic_msgs_generate_messages_cpp.dir/all
+
+# Build rule for subdir invocation for target.
+naoqi_driver/CMakeFiles/diagnostic_msgs_generate_messages_cpp.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/clarissa/catkin_ws/build/CMakeFiles 0
+	$(MAKE) -f CMakeFiles/Makefile2 naoqi_driver/CMakeFiles/diagnostic_msgs_generate_messages_cpp.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/clarissa/catkin_ws/build/CMakeFiles 0
+.PHONY : naoqi_driver/CMakeFiles/diagnostic_msgs_generate_messages_cpp.dir/rule
+
+# Convenience name for target.
+diagnostic_msgs_generate_messages_cpp: naoqi_driver/CMakeFiles/diagnostic_msgs_generate_messages_cpp.dir/rule
+.PHONY : diagnostic_msgs_generate_messages_cpp
+
+# clean rule for target.
+naoqi_driver/CMakeFiles/diagnostic_msgs_generate_messages_cpp.dir/clean:
+	$(MAKE) -f naoqi_driver/CMakeFiles/diagnostic_msgs_generate_messages_cpp.dir/build.make naoqi_driver/CMakeFiles/diagnostic_msgs_generate_messages_cpp.dir/clean
+.PHONY : naoqi_driver/CMakeFiles/diagnostic_msgs_generate_messages_cpp.dir/clean
+
+# clean rule for target.
+clean: naoqi_driver/CMakeFiles/diagnostic_msgs_generate_messages_cpp.dir/clean
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target naoqi_driver/CMakeFiles/diagnostic_msgs_generate_messages_lisp.dir
+
+# All Build rule for target.
+naoqi_driver/CMakeFiles/diagnostic_msgs_generate_messages_lisp.dir/all:
+	$(MAKE) -f naoqi_driver/CMakeFiles/diagnostic_msgs_generate_messages_lisp.dir/build.make naoqi_driver/CMakeFiles/diagnostic_msgs_generate_messages_lisp.dir/depend
+	$(MAKE) -f naoqi_driver/CMakeFiles/diagnostic_msgs_generate_messages_lisp.dir/build.make naoqi_driver/CMakeFiles/diagnostic_msgs_generate_messages_lisp.dir/build
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/clarissa/catkin_ws/build/CMakeFiles 
+	@echo "Built target diagnostic_msgs_generate_messages_lisp"
+.PHONY : naoqi_driver/CMakeFiles/diagnostic_msgs_generate_messages_lisp.dir/all
+
+# Build rule for subdir invocation for target.
+naoqi_driver/CMakeFiles/diagnostic_msgs_generate_messages_lisp.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/clarissa/catkin_ws/build/CMakeFiles 0
+	$(MAKE) -f CMakeFiles/Makefile2 naoqi_driver/CMakeFiles/diagnostic_msgs_generate_messages_lisp.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/clarissa/catkin_ws/build/CMakeFiles 0
+.PHONY : naoqi_driver/CMakeFiles/diagnostic_msgs_generate_messages_lisp.dir/rule
+
+# Convenience name for target.
+diagnostic_msgs_generate_messages_lisp: naoqi_driver/CMakeFiles/diagnostic_msgs_generate_messages_lisp.dir/rule
+.PHONY : diagnostic_msgs_generate_messages_lisp
+
+# clean rule for target.
+naoqi_driver/CMakeFiles/diagnostic_msgs_generate_messages_lisp.dir/clean:
+	$(MAKE) -f naoqi_driver/CMakeFiles/diagnostic_msgs_generate_messages_lisp.dir/build.make naoqi_driver/CMakeFiles/diagnostic_msgs_generate_messages_lisp.dir/clean
+.PHONY : naoqi_driver/CMakeFiles/diagnostic_msgs_generate_messages_lisp.dir/clean
+
+# clean rule for target.
+clean: naoqi_driver/CMakeFiles/diagnostic_msgs_generate_messages_lisp.dir/clean
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target naoqi_driver/CMakeFiles/diagnostic_msgs_generate_messages_py.dir
+
+# All Build rule for target.
+naoqi_driver/CMakeFiles/diagnostic_msgs_generate_messages_py.dir/all:
+	$(MAKE) -f naoqi_driver/CMakeFiles/diagnostic_msgs_generate_messages_py.dir/build.make naoqi_driver/CMakeFiles/diagnostic_msgs_generate_messages_py.dir/depend
+	$(MAKE) -f naoqi_driver/CMakeFiles/diagnostic_msgs_generate_messages_py.dir/build.make naoqi_driver/CMakeFiles/diagnostic_msgs_generate_messages_py.dir/build
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/clarissa/catkin_ws/build/CMakeFiles 
+	@echo "Built target diagnostic_msgs_generate_messages_py"
+.PHONY : naoqi_driver/CMakeFiles/diagnostic_msgs_generate_messages_py.dir/all
+
+# Build rule for subdir invocation for target.
+naoqi_driver/CMakeFiles/diagnostic_msgs_generate_messages_py.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/clarissa/catkin_ws/build/CMakeFiles 0
+	$(MAKE) -f CMakeFiles/Makefile2 naoqi_driver/CMakeFiles/diagnostic_msgs_generate_messages_py.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/clarissa/catkin_ws/build/CMakeFiles 0
+.PHONY : naoqi_driver/CMakeFiles/diagnostic_msgs_generate_messages_py.dir/rule
+
+# Convenience name for target.
+diagnostic_msgs_generate_messages_py: naoqi_driver/CMakeFiles/diagnostic_msgs_generate_messages_py.dir/rule
+.PHONY : diagnostic_msgs_generate_messages_py
+
+# clean rule for target.
+naoqi_driver/CMakeFiles/diagnostic_msgs_generate_messages_py.dir/clean:
+	$(MAKE) -f naoqi_driver/CMakeFiles/diagnostic_msgs_generate_messages_py.dir/build.make naoqi_driver/CMakeFiles/diagnostic_msgs_generate_messages_py.dir/clean
+.PHONY : naoqi_driver/CMakeFiles/diagnostic_msgs_generate_messages_py.dir/clean
+
+# clean rule for target.
+clean: naoqi_driver/CMakeFiles/diagnostic_msgs_generate_messages_py.dir/clean
+.PHONY : clean
+
+#=============================================================================
+>>>>>>> 616d0b8b1080c9f27984c48b752125724b97d59b
 # Target rules for target naoqi_driver/CMakeFiles/geometry_msgs_generate_messages_cpp.dir
 
 # All Build rule for target.
@@ -1178,6 +1283,7 @@ clean: naoqi_driver/CMakeFiles/naoqi_bridge_msgs_generate_messages_py.dir/clean
 
 # All Build rule for target.
 naoqi_driver/CMakeFiles/naoqi_driver.dir/all: beginner_tutorials/CMakeFiles/roscpp_generate_messages_cpp.dir/all
+<<<<<<< HEAD
 naoqi_driver/CMakeFiles/naoqi_driver.dir/all: beginner_tutorials/CMakeFiles/roscpp_generate_messages_lisp.dir/all
 naoqi_driver/CMakeFiles/naoqi_driver.dir/all: beginner_tutorials/CMakeFiles/roscpp_generate_messages_py.dir/all
 naoqi_driver/CMakeFiles/naoqi_driver.dir/all: beginner_tutorials/CMakeFiles/std_msgs_generate_messages_lisp.dir/all
@@ -1212,6 +1318,42 @@ naoqi_driver/CMakeFiles/naoqi_driver.dir/all: naoqi_driver/CMakeFiles/tf2_msgs_g
 naoqi_driver/CMakeFiles/naoqi_driver.dir/all: naoqi_driver/CMakeFiles/actionlib_generate_messages_lisp.dir/all
 naoqi_driver/CMakeFiles/naoqi_driver.dir/all: naoqi_driver/CMakeFiles/actionlib_generate_messages_py.dir/all
 naoqi_driver/CMakeFiles/naoqi_driver.dir/all: naoqi_driver/CMakeFiles/tf2_msgs_generate_messages_lisp.dir/all
+=======
+naoqi_driver/CMakeFiles/naoqi_driver.dir/all: naoqi_driver/CMakeFiles/diagnostic_msgs_generate_messages_lisp.dir/all
+naoqi_driver/CMakeFiles/naoqi_driver.dir/all: beginner_tutorials/CMakeFiles/roscpp_generate_messages_lisp.dir/all
+naoqi_driver/CMakeFiles/naoqi_driver.dir/all: beginner_tutorials/CMakeFiles/roscpp_generate_messages_py.dir/all
+naoqi_driver/CMakeFiles/naoqi_driver.dir/all: beginner_tutorials/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/all
+naoqi_driver/CMakeFiles/naoqi_driver.dir/all: beginner_tutorials/CMakeFiles/std_msgs_generate_messages_py.dir/all
+naoqi_driver/CMakeFiles/naoqi_driver.dir/all: beginner_tutorials/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/all
+naoqi_driver/CMakeFiles/naoqi_driver.dir/all: beginner_tutorials/CMakeFiles/std_msgs_generate_messages_lisp.dir/all
+naoqi_driver/CMakeFiles/naoqi_driver.dir/all: beginner_tutorials/CMakeFiles/std_msgs_generate_messages_cpp.dir/all
+naoqi_driver/CMakeFiles/naoqi_driver.dir/all: beginner_tutorials/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/all
+naoqi_driver/CMakeFiles/naoqi_driver.dir/all: naoqi_driver/CMakeFiles/diagnostic_msgs_generate_messages_cpp.dir/all
+naoqi_driver/CMakeFiles/naoqi_driver.dir/all: naoqi_driver/CMakeFiles/naoqi_bridge_msgs_generate_messages_lisp.dir/all
+naoqi_driver/CMakeFiles/naoqi_driver.dir/all: naoqi_driver/CMakeFiles/diagnostic_msgs_generate_messages_py.dir/all
+naoqi_driver/CMakeFiles/naoqi_driver.dir/all: naoqi_driver/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/all
+naoqi_driver/CMakeFiles/naoqi_driver.dir/all: naoqi_driver/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/all
+naoqi_driver/CMakeFiles/naoqi_driver.dir/all: naoqi_driver/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/all
+naoqi_driver/CMakeFiles/naoqi_driver.dir/all: naoqi_driver/CMakeFiles/sensor_msgs_generate_messages_py.dir/all
+naoqi_driver/CMakeFiles/naoqi_driver.dir/all: naoqi_driver/CMakeFiles/geometry_msgs_generate_messages_py.dir/all
+naoqi_driver/CMakeFiles/naoqi_driver.dir/all: naoqi_driver/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/all
+naoqi_driver/CMakeFiles/naoqi_driver.dir/all: naoqi_driver/CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/all
+naoqi_driver/CMakeFiles/naoqi_driver.dir/all: naoqi_driver/CMakeFiles/actionlib_msgs_generate_messages_py.dir/all
+naoqi_driver/CMakeFiles/naoqi_driver.dir/all: naoqi_driver/CMakeFiles/naoqi_bridge_msgs_generate_messages_cpp.dir/all
+naoqi_driver/CMakeFiles/naoqi_driver.dir/all: naoqi_driver/CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/all
+naoqi_driver/CMakeFiles/naoqi_driver.dir/all: naoqi_driver/CMakeFiles/naoqi_bridge_msgs_generate_messages_py.dir/all
+naoqi_driver/CMakeFiles/naoqi_driver.dir/all: naoqi_driver/CMakeFiles/trajectory_msgs_generate_messages_py.dir/all
+naoqi_driver/CMakeFiles/naoqi_driver.dir/all: naoqi_driver/CMakeFiles/nav_msgs_generate_messages_py.dir/all
+naoqi_driver/CMakeFiles/naoqi_driver.dir/all: naoqi_driver/CMakeFiles/nav_msgs_generate_messages_lisp.dir/all
+naoqi_driver/CMakeFiles/naoqi_driver.dir/all: naoqi_driver/CMakeFiles/nav_msgs_generate_messages_cpp.dir/all
+naoqi_driver/CMakeFiles/naoqi_driver.dir/all: naoqi_driver/CMakeFiles/trajectory_msgs_generate_messages_lisp.dir/all
+naoqi_driver/CMakeFiles/naoqi_driver.dir/all: naoqi_driver/CMakeFiles/trajectory_msgs_generate_messages_cpp.dir/all
+naoqi_driver/CMakeFiles/naoqi_driver.dir/all: naoqi_driver/CMakeFiles/tf2_msgs_generate_messages_cpp.dir/all
+naoqi_driver/CMakeFiles/naoqi_driver.dir/all: naoqi_driver/CMakeFiles/tf2_msgs_generate_messages_lisp.dir/all
+naoqi_driver/CMakeFiles/naoqi_driver.dir/all: naoqi_driver/CMakeFiles/actionlib_generate_messages_cpp.dir/all
+naoqi_driver/CMakeFiles/naoqi_driver.dir/all: naoqi_driver/CMakeFiles/actionlib_generate_messages_lisp.dir/all
+naoqi_driver/CMakeFiles/naoqi_driver.dir/all: naoqi_driver/CMakeFiles/actionlib_generate_messages_py.dir/all
+>>>>>>> 616d0b8b1080c9f27984c48b752125724b97d59b
 naoqi_driver/CMakeFiles/naoqi_driver.dir/all: naoqi_driver/CMakeFiles/tf2_msgs_generate_messages_py.dir/all
 	$(MAKE) -f naoqi_driver/CMakeFiles/naoqi_driver.dir/build.make naoqi_driver/CMakeFiles/naoqi_driver.dir/depend
 	$(MAKE) -f naoqi_driver/CMakeFiles/naoqi_driver.dir/build.make naoqi_driver/CMakeFiles/naoqi_driver.dir/build

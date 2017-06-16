@@ -358,6 +358,7 @@ std_msgs_generate_messages_py/fast:
 .PHONY : std_msgs_generate_messages_py/fast
 
 #=============================================================================
+<<<<<<< HEAD
 # Target rules for targets named diagnostic_msgs_generate_messages_cpp
 
 # Build rule for target.
@@ -397,6 +398,8 @@ diagnostic_msgs_generate_messages_py/fast:
 .PHONY : diagnostic_msgs_generate_messages_py/fast
 
 #=============================================================================
+=======
+>>>>>>> 616d0b8b1080c9f27984c48b752125724b97d59b
 # Target rules for targets named _catkin_empty_exported_target
 
 # Build rule for target.
@@ -488,6 +491,48 @@ actionlib_msgs_generate_messages_py/fast:
 .PHONY : actionlib_msgs_generate_messages_py/fast
 
 #=============================================================================
+<<<<<<< HEAD
+=======
+# Target rules for targets named diagnostic_msgs_generate_messages_cpp
+
+# Build rule for target.
+diagnostic_msgs_generate_messages_cpp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 diagnostic_msgs_generate_messages_cpp
+.PHONY : diagnostic_msgs_generate_messages_cpp
+
+# fast build rule for target.
+diagnostic_msgs_generate_messages_cpp/fast:
+	$(MAKE) -f naoqi_driver/CMakeFiles/diagnostic_msgs_generate_messages_cpp.dir/build.make naoqi_driver/CMakeFiles/diagnostic_msgs_generate_messages_cpp.dir/build
+.PHONY : diagnostic_msgs_generate_messages_cpp/fast
+
+#=============================================================================
+# Target rules for targets named diagnostic_msgs_generate_messages_lisp
+
+# Build rule for target.
+diagnostic_msgs_generate_messages_lisp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 diagnostic_msgs_generate_messages_lisp
+.PHONY : diagnostic_msgs_generate_messages_lisp
+
+# fast build rule for target.
+diagnostic_msgs_generate_messages_lisp/fast:
+	$(MAKE) -f naoqi_driver/CMakeFiles/diagnostic_msgs_generate_messages_lisp.dir/build.make naoqi_driver/CMakeFiles/diagnostic_msgs_generate_messages_lisp.dir/build
+.PHONY : diagnostic_msgs_generate_messages_lisp/fast
+
+#=============================================================================
+# Target rules for targets named diagnostic_msgs_generate_messages_py
+
+# Build rule for target.
+diagnostic_msgs_generate_messages_py: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 diagnostic_msgs_generate_messages_py
+.PHONY : diagnostic_msgs_generate_messages_py
+
+# fast build rule for target.
+diagnostic_msgs_generate_messages_py/fast:
+	$(MAKE) -f naoqi_driver/CMakeFiles/diagnostic_msgs_generate_messages_py.dir/build.make naoqi_driver/CMakeFiles/diagnostic_msgs_generate_messages_py.dir/build
+.PHONY : diagnostic_msgs_generate_messages_py/fast
+
+#=============================================================================
+>>>>>>> 616d0b8b1080c9f27984c48b752125724b97d59b
 # Target rules for targets named geometry_msgs_generate_messages_cpp
 
 # Build rule for target.
@@ -789,9 +834,12 @@ help:
 	@echo "... std_msgs_generate_messages_cpp"
 	@echo "... std_msgs_generate_messages_lisp"
 	@echo "... std_msgs_generate_messages_py"
+<<<<<<< HEAD
 	@echo "... diagnostic_msgs_generate_messages_cpp"
 	@echo "... diagnostic_msgs_generate_messages_lisp"
 	@echo "... diagnostic_msgs_generate_messages_py"
+=======
+>>>>>>> 616d0b8b1080c9f27984c48b752125724b97d59b
 	@echo "... _catkin_empty_exported_target"
 	@echo "... actionlib_generate_messages_cpp"
 	@echo "... actionlib_generate_messages_lisp"
@@ -799,6 +847,12 @@ help:
 	@echo "... actionlib_msgs_generate_messages_cpp"
 	@echo "... actionlib_msgs_generate_messages_lisp"
 	@echo "... actionlib_msgs_generate_messages_py"
+<<<<<<< HEAD
+=======
+	@echo "... diagnostic_msgs_generate_messages_cpp"
+	@echo "... diagnostic_msgs_generate_messages_lisp"
+	@echo "... diagnostic_msgs_generate_messages_py"
+>>>>>>> 616d0b8b1080c9f27984c48b752125724b97d59b
 	@echo "... geometry_msgs_generate_messages_cpp"
 	@echo "... geometry_msgs_generate_messages_lisp"
 	@echo "... geometry_msgs_generate_messages_py"
