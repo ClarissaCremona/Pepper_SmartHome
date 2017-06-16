@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/clarissa/catkin_ws/src/begineer_tutorials/build/devel/setup.sh
