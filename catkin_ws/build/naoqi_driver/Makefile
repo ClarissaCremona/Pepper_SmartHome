@@ -234,48 +234,6 @@ actionlib_msgs_generate_messages_py/fast:
 .PHONY : actionlib_msgs_generate_messages_py/fast
 
 # Convenience name for target.
-naoqi_driver/CMakeFiles/diagnostic_msgs_generate_messages_cpp.dir/rule:
-	cd /home/clarissa/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 naoqi_driver/CMakeFiles/diagnostic_msgs_generate_messages_cpp.dir/rule
-.PHONY : naoqi_driver/CMakeFiles/diagnostic_msgs_generate_messages_cpp.dir/rule
-
-# Convenience name for target.
-diagnostic_msgs_generate_messages_cpp: naoqi_driver/CMakeFiles/diagnostic_msgs_generate_messages_cpp.dir/rule
-.PHONY : diagnostic_msgs_generate_messages_cpp
-
-# fast build rule for target.
-diagnostic_msgs_generate_messages_cpp/fast:
-	cd /home/clarissa/catkin_ws/build && $(MAKE) -f naoqi_driver/CMakeFiles/diagnostic_msgs_generate_messages_cpp.dir/build.make naoqi_driver/CMakeFiles/diagnostic_msgs_generate_messages_cpp.dir/build
-.PHONY : diagnostic_msgs_generate_messages_cpp/fast
-
-# Convenience name for target.
-naoqi_driver/CMakeFiles/diagnostic_msgs_generate_messages_lisp.dir/rule:
-	cd /home/clarissa/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 naoqi_driver/CMakeFiles/diagnostic_msgs_generate_messages_lisp.dir/rule
-.PHONY : naoqi_driver/CMakeFiles/diagnostic_msgs_generate_messages_lisp.dir/rule
-
-# Convenience name for target.
-diagnostic_msgs_generate_messages_lisp: naoqi_driver/CMakeFiles/diagnostic_msgs_generate_messages_lisp.dir/rule
-.PHONY : diagnostic_msgs_generate_messages_lisp
-
-# fast build rule for target.
-diagnostic_msgs_generate_messages_lisp/fast:
-	cd /home/clarissa/catkin_ws/build && $(MAKE) -f naoqi_driver/CMakeFiles/diagnostic_msgs_generate_messages_lisp.dir/build.make naoqi_driver/CMakeFiles/diagnostic_msgs_generate_messages_lisp.dir/build
-.PHONY : diagnostic_msgs_generate_messages_lisp/fast
-
-# Convenience name for target.
-naoqi_driver/CMakeFiles/diagnostic_msgs_generate_messages_py.dir/rule:
-	cd /home/clarissa/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 naoqi_driver/CMakeFiles/diagnostic_msgs_generate_messages_py.dir/rule
-.PHONY : naoqi_driver/CMakeFiles/diagnostic_msgs_generate_messages_py.dir/rule
-
-# Convenience name for target.
-diagnostic_msgs_generate_messages_py: naoqi_driver/CMakeFiles/diagnostic_msgs_generate_messages_py.dir/rule
-.PHONY : diagnostic_msgs_generate_messages_py
-
-# fast build rule for target.
-diagnostic_msgs_generate_messages_py/fast:
-	cd /home/clarissa/catkin_ws/build && $(MAKE) -f naoqi_driver/CMakeFiles/diagnostic_msgs_generate_messages_py.dir/build.make naoqi_driver/CMakeFiles/diagnostic_msgs_generate_messages_py.dir/build
-.PHONY : diagnostic_msgs_generate_messages_py/fast
-
-# Convenience name for target.
 naoqi_driver/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/rule:
 	cd /home/clarissa/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 naoqi_driver/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/rule
 .PHONY : naoqi_driver/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/rule
@@ -1517,9 +1475,6 @@ help:
 	@echo "... actionlib_msgs_generate_messages_cpp"
 	@echo "... actionlib_msgs_generate_messages_lisp"
 	@echo "... actionlib_msgs_generate_messages_py"
-	@echo "... diagnostic_msgs_generate_messages_cpp"
-	@echo "... diagnostic_msgs_generate_messages_lisp"
-	@echo "... diagnostic_msgs_generate_messages_py"
 	@echo "... edit_cache"
 	@echo "... geometry_msgs_generate_messages_cpp"
 	@echo "... geometry_msgs_generate_messages_lisp"

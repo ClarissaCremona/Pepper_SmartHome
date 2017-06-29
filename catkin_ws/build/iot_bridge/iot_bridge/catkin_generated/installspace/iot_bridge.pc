@@ -1,0 +1,8 @@
+prefix=/home/clarissa/catkin_ws/install
+
+Name: iot_bridge
+Description: Description of iot_bridge
+Version: 0.8.2
+Cflags: 
+Libs: -L/home/clarissa/catkin_ws/install/lib 
+Requires: 

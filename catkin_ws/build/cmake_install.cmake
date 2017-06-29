@@ -118,6 +118,8 @@ IF(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
   INCLUDE("/home/clarissa/catkin_ws/build/gtest/cmake_install.cmake")
   INCLUDE("/home/clarissa/catkin_ws/build/beginner_tutorials/cmake_install.cmake")
+  INCLUDE("/home/clarissa/catkin_ws/build/demo_pkg/cmake_install.cmake")
+  INCLUDE("/home/clarissa/catkin_ws/build/iot_bridge/iot_bridge/cmake_install.cmake")
   INCLUDE("/home/clarissa/catkin_ws/build/my_pkg/cmake_install.cmake")
   INCLUDE("/home/clarissa/catkin_ws/build/naoqi_driver/cmake_install.cmake")
 
