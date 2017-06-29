@@ -1,10 +1,2 @@
-<<<<<<< HEAD
 beginner_tutorials:demo_pkg:iot_bridge/iot_bridge:my_pkg:naoqi_driver
-=======
-<<<<<<< HEAD
-beginner_tutorials:demo_pkg:iot_bridge/iot_bridge:my_pkg:naoqi_driver
-=======
-beginner_tutorials:my_pkg:naoqi_driver
->>>>>>> 616d0b8b1080c9f27984c48b752125724b97d59b
->>>>>>> 89e32fb88bb1db74de6121aac08476281f53564d
 -DCATKIN_DEVEL_PREFIX=/home/clarissa/catkin_ws/devel -DCMAKE_INSTALL_PREFIX=/home/clarissa/catkin_ws/install -G Unix Makefiles

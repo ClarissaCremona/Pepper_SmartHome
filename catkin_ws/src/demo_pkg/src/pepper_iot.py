@@ -41,11 +41,8 @@ def listener():
     rospy.spin() # keeps python from exiting until node is stopped
     #print(data.value)
 
-<<<<<<< HEAD
 
 
-=======
->>>>>>> 89e32fb88bb1db74de6121aac08476281f53564d
 if __name__ == '__main__':
     from naoqi import ALProxy
     tts = ALProxy("ALTextToSpeech", "pepper.local", 9559) # initialise speech proxy

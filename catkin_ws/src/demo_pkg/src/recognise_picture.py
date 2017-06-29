@@ -53,10 +53,7 @@ try:
   while count > 0:
     time.sleep(5)
     print("running picture recognition")
-<<<<<<< HEAD
     print(count)
-=======
->>>>>>> 89e32fb88bb1db74de6121aac08476281f53564d
     if (count == 9):
         print("exit")
         break
